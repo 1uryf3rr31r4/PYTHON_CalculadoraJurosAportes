@@ -62,7 +62,6 @@ def calcular():
     except ValueError:
         messagebox.showerror("Error", "Por Favor, preencha todos os campos corretamente")
 
-    
 
 def limpar():
     entrada_capital.delete(0, tk.END)
